@@ -1,22 +1,22 @@
 @font-face {
   font-family: 'open-sans';
-  src: url(/fonts/open-sans.ttf);
+  src: url(fonopen-sans.ttf);
 }
 @font-face {
   font-family: 'open-sans';
-  src: url(/fonts/open-sans-bold-italic.ttf);
+  src: url(fonts/open-sans-bold-italic.ttf);
   font-weight: bold;
   font-style: italic;
 }
 @font-face {
   font-family: 'open-sans';
-  src: url(/fonts/open-sans-italic.ttf);
+  src: url(fonts/open-sans-italic.ttf);
   font-style: italic;
 }
 @font-face {
   font-family: 'open-sans';
   font-weight: bold;
-  src: url(/fonts/open-sans-bold.ttf);
+  src: url(fonts/open-sans-bold.ttf);
 }
 
 body {
