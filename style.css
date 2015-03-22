@@ -265,7 +265,9 @@ a:focus {
 .footer-sosial li a {
   width: 100%;
   height: 100%;
-  display: block;
+  display: table-cell;
+  color: transparent;
+  text-decoration: none;
 }
 
 .footer-sosial li:hover {
