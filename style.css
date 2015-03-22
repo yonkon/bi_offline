@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'open-sans';
-  src: url(fonopen-sans.ttf);
+  src: url(fonts/open-sans.ttf);
 }
 @font-face {
   font-family: 'open-sans';
@@ -138,7 +138,7 @@ a:focus {
   height: 35px;
   background-color: rgb(81, 81, 81);
   color: #ffffff;
-
+  text-transform: uppercase;
 }
 
 .lentanews > span {
@@ -198,6 +198,7 @@ a:focus {
   background-color: rgb(81, 81, 81);
   color: #ffffff;
   overflow: hidden;
+  text-transform: uppercase;
 }
 
 .lentaarticles > span {
@@ -375,6 +376,9 @@ a:focus {
   line-height: 50px;
   color: rgb(123, 10, 19);
   text-decoration: underline;
+  text-transform: uppercase;
+  font-size: 14pt;
+  font-weight: bold;
 }
 
 .footer-horizontal li a:hover {
@@ -395,6 +399,7 @@ a:focus {
   background-color: rgb(81, 81, 81);
   color: #ffffff;
   overflow: hidden;
+  text-transform: uppercase;
 }
 
 .lenta-right > span {
@@ -601,7 +606,15 @@ a:focus {
   height: 35px;
   background-color: rgb(169, 9, 21);
   margin-top: 15px;
+  font-size: 14pt;
+  font-weight: bold;
+  text-transform: uppercase;
+}
 
+.buc14 {
+  font-size: 14pt;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 .auth:hover {
@@ -916,4 +929,8 @@ ul.breadcrumbs li:nth-child(n+2):before {
 
 .child-padding-b2em > div {
   padding-bottom: 2em;
+}
+
+.newstext .name {
+  font-size: 14pt;
 }
