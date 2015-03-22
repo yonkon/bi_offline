@@ -377,7 +377,7 @@ a:focus {
   color: rgb(123, 10, 19);
   text-decoration: underline;
   text-transform: uppercase;
-  font-size: 14pt;
+  font-size: 12pt;
   font-weight: bold;
 }
 
@@ -611,6 +611,16 @@ a:focus {
   text-transform: uppercase;
 }
 
+
+.buc {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.buc12 {
+  font-size: 12pt;
+  font-weight: bold;
+  text-transform: uppercase;
+}
 .buc14 {
   font-size: 14pt;
   font-weight: bold;
@@ -932,5 +942,11 @@ ul.breadcrumbs li:nth-child(n+2):before {
 }
 
 .newstext .name {
-  font-size: 14pt;
+  font-weight: bold;
+}
+
+.article-name {
+  font-weight: bold;
+  font-size: 12pt;
+  text-transform: uppercase;
 }
