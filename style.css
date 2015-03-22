@@ -103,9 +103,8 @@ a:focus {
   vertical-align: middle;
   text-align: center;
   color: #000000;
+  cursor: pointer;
 }
-
-
 
 .news {
   width: 892px;
@@ -465,13 +464,14 @@ a:focus {
 .sosial li:hover a:before {
   display: block;
 }
+
 .sosial li a {
   width: 100%;
   height: 100%;
   display: table-cell;
   color: transparent;
   background-color: inherit;
-  text-decoration:none;
+  text-decoration: none;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -481,23 +481,23 @@ a:focus {
 }
 
 .fb {
-background: url("ggg/fb.png");
+  background: url("ggg/fb.png");
 }
 
 .tv {
-background: url("ggg/tv.png");
+  background: url("ggg/tv.png");
 }
 
 .ins {
-background: url("ggg/ins.png");
+  background: url("ggg/ins.png");
 }
 
 .yt {
-background: url("ggg/yt.png");
+  background: url("ggg/yt.png");
 }
 
 .sosial li a.vk1:before {
-    border-top: 7px solid rgb(82, 117, 157);
+  border-top: 7px solid rgb(82, 117, 157);
 }
 
 .sosial li a.fb:before {
@@ -598,7 +598,7 @@ background: url("ggg/yt.png");
 }
 
 .logo {
-  margin: 0% auto;
+  margin: 0 auto;
   position: relative;
   width: 350px;
   display: block;
@@ -647,6 +647,11 @@ background: url("ggg/yt.png");
 }
 
 .vpadding5 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.vmargen5 {
   padding-top: 5px;
   padding-bottom: 5px;
 }
@@ -733,19 +738,21 @@ background: url("ggg/yt.png");
   line-height: inherit;
 }
 
-.pagination li:first-child {
+.pagination li:first-child * {
   text-align: left;
 }
 
-.pagination li:last-child {
+.pagination li:last-child * {
   text-align: right;
 }
 
 .pagination li:first-child a:before {
+  padding-left: 1em;
   content: "<< ";
 }
 
 .pagination li:last-child a:after {
+  padding-right: 1em;
   content: " >>";
 }
 
@@ -753,7 +760,11 @@ background: url("ggg/yt.png");
   width: 20%;
 }
 
-ul.breadcrumbs li, ul.breadcrumbs li.active, ul.breadcrumbs li.active:hover, ul.breadcrumbs li:hover, ul.breadcrumbs li a{
+.horizontal.breadcrumbs *, .horizontal.breadcrumbs *:hover, .horizontal.breadcrumbs *.active {
+  background: none transparent;
+}
+
+ul.breadcrumbs li, ul.breadcrumbs li.active, ul.breadcrumbs li.active:hover, ul.breadcrumbs li:hover, ul.breadcrumbs li a {
   border: none;
   display: inline;
   background: none transparent;
@@ -763,43 +774,124 @@ ul.breadcrumbs li a {
   text-decoration: underline;
   color: #7B0A13;
 }
+
 ul.breadcrumbs li a:hover, ul.breadcrumbs li.active a {
   text-decoration: none;
 }
+
 ul.breadcrumbs li a.active {
-  color: rgb(208,208,208);
+  color: rgb(208, 208, 208);
 }
 
 ul.breadcrumbs li:nth-child(n+2):before {
   content: '/';
   padding: 0 0.5em;
+  color: #000000;
+}
+
+.content-article {
+  margin-bottom: 10px
+}
+
+.border-black {
+  border: 2px solid rgb(54, 54, 54);
+
+}
+
+.border-black:before {
+  content: " ";
+  background-image: url("ggg/cite.png");
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 44px;
+  height: 49px;
+}
+
+.border-text {
+  background-color: rgb(233, 233, 233);
+  height: 100px;
+}
+
+.border-text > span {
+  position: absolute;
+  padding: 10px;
+}
+
+.border-red {
+  border: 2px solid rgb(190, 10, 20);
+
+}
+
+.border-red:before {
+  content: " ";
+  background-image: url("ggg/warning.png");
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 44px;
+  height: 49px;
+}
+
+.border-blue {
+  border: 2px solid rgb(22, 53, 153);
+
+}
+
+.border-blue:before {
+  content: " ";
+  background-image: url("ggg/next.png");
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 44px;
+  height: 49px;
+}
+
+.first-ul {
+  list-style: square inside;
+
+}
+
+.first-ul li {
+  color: rgb(190, 10, 20);
+}
+
+.first-ul li span {
+  color: initial;
+}
+
+.second-ol {
+  list-style: inside;
+  list-style-type: decimal;
+  padding: 0 0.5em;
   vertical-align: middle;
-  color: rgb(208,208,208);
+  color: rgb(208, 208, 208);
 }
 
 .photo-video img {
-  width:100%;
+  width: 100%;
 }
 
-.row-of-3>div:nth-of-type(3n+1) {
+.row-of-3 > div:nth-of-type(3n+1) {
   padding-left: 0;
-  clear:left;
+  clear: left;
 }
 
-.row-of-4>div:nth-of-type(4n+1) {
+.row-of-4 > div:nth-of-type(4n+1) {
   padding-left: 0;
-  clear:left;
+  clear: left;
 }
 
-.child-padding-t1em>div {
+.child-padding-t1em > div {
   padding-top: 1em;
 }
-.child-padding-t2em>div {
+
+.child-padding-t2em > div {
   padding-top: 2em;
 }
-.child-padding-b1em>div {
+
+.child-padding-b1em > div {
   padding-bottom: 1em;
 }
-.child-padding-b2em>div {
+
+.child-padding-b2em > div {
   padding-bottom: 2em;
 }
