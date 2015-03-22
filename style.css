@@ -138,6 +138,7 @@ a:focus {
   height: 35px;
   background-color: rgb(81, 81, 81);
   color: #ffffff;
+  font-size: 14pt;
   text-transform: uppercase;
 }
 
@@ -149,11 +150,11 @@ a:focus {
 
 .lentanews:before {
   content: " ";
-  background-image: url("ggg/Sound.png");
+  background-image: url("img/Sound.png");
   background-repeat: no-repeat;
   display: inline-block;
   width: 32px;
-  height: 30px;
+  height: 35px;
   line-height: 35px;
   vertical-align: middle;
   background-position: center;
@@ -161,7 +162,7 @@ a:focus {
 
 .rss {
   content: " ";
-  background-image: url("ggg/RSS.png");
+  background-image: url("img/RSS.png");
   background-repeat: no-repeat;
   display: inline-block;
   width: 32px;
@@ -209,7 +210,7 @@ a:focus {
 
 .lentaarticles:before {
   content: " ";
-  background-image: url("ggg/Sound.png");
+  background-image: url("img/Sound.png");
   background-repeat: no-repeat;
   display: inline-block;
   width: 32px;
@@ -220,15 +221,15 @@ a:focus {
 }
 
 .lentaarticles.master-class:before {
-  background-image: url("ggg/Menu.png");
+  background-image: url("img/Menu.png");
 }
 
 .lentaarticles.persones:before {
-  background-image: url("ggg/User.png");
+  background-image: url("img/User.png");
 }
 
 .lentaarticles.art:before {
-  background-image: url("ggg/Compose.png");
+  background-image: url("img/Compose.png");
 }
 
 .article-img {
@@ -305,55 +306,55 @@ a:focus {
 }
 
 .vk-foot {
-  background: url("ggg/V.png");
+  background: url("img/V.png");
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .odn-foot {
-  background: url("ggg/o.png");
+  background: url("img/o.png");
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .fb-foot {
-  background: url("ggg/f.png");
+  background: url("img/f.png");
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .tv-foot {
-  background: url("ggg/t.png");
+  background: url("img/t.png");
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .ins-foot {
-  background: url("ggg/i.png");
+  background: url("img/i.png");
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .g-foot {
-  background: url("ggg/g.png");
+  background: url("img/g.png");
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .m-foot {
-  background: url("ggg/m.png");
+  background: url("img/m.png");
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .p-foot {
-  background: url("ggg/p.png");
+  background: url("img/p.png");
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .plus-foot {
-  background: url("ggg/plus.png");
+  background: url("img/plus.png");
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -377,7 +378,6 @@ a:focus {
   color: rgb(123, 10, 19);
   text-decoration: underline;
   text-transform: uppercase;
-  font-size: 12pt;
   font-weight: bold;
 }
 
@@ -410,7 +410,7 @@ a:focus {
 
 .lenta-right:before {
   content: " ";
-  background-image: url("ggg/Newspaper.png");
+  background-image: url("img/Newspaper.png");
   background-repeat: no-repeat;
   display: inline-block;
   width: 32px;
@@ -421,7 +421,7 @@ a:focus {
 }
 
 .lenta-right.vk:before {
-  background-image: url("ggg/Comments.png");
+  background-image: url("img/Comments.png");
 }
 
 .right-img {
@@ -448,7 +448,7 @@ a:focus {
 
 .right-button:before {
   content: " ";
-  background-image: url("ggg/strel.png");
+  background-image: url("img/strel.png");
   background-repeat: no-repeat;
   display: inline-block;
   width: 32px;
@@ -504,23 +504,23 @@ a:focus {
 }
 
 .vk1 {
-  background: url("ggg/vk.png");
+  background: url("img/vk.png");
 }
 
 .fb {
-  background: url("ggg/fb.png");
+  background: url("img/fb.png");
 }
 
 .tv {
-  background: url("ggg/tv.png");
+  background: url("img/tv.png");
 }
 
 .ins {
-  background: url("ggg/ins.png");
+  background: url("img/ins.png");
 }
 
 .yt {
-  background: url("ggg/yt.png");
+  background: url("img/yt.png");
 }
 
 .sosial li a.vk1:before {
@@ -567,7 +567,7 @@ a:focus {
 
 .seach:after {
   content: " ";
-  background-image: url("ggg/seach.png");
+  background-image: url("img/seach.png");
   background-repeat: no-repeat;
   display: inline-block;
   width: 32px;
@@ -591,7 +591,7 @@ a:focus {
 
 .mob:before {
   content: " ";
-  background-image: url("ggg/Phone.png");
+  background-image: url("img/Phone.png");
   background-repeat: no-repeat;
   display: inline-block;
   width: 32px;
@@ -606,7 +606,6 @@ a:focus {
   height: 35px;
   background-color: rgb(169, 9, 21);
   margin-top: 15px;
-  font-size: 14pt;
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -845,7 +844,7 @@ ul.breadcrumbs li:nth-child(n+2):before {
 
 .border-black:before {
   content: " ";
-  background-image: url("ggg/cite.png");
+  background-image: url("img/cite.png");
   background-repeat: no-repeat;
   display: inline-block;
   width: 44px;
@@ -869,7 +868,7 @@ ul.breadcrumbs li:nth-child(n+2):before {
 
 .border-red:before {
   content: " ";
-  background-image: url("ggg/warning.png");
+  background-image: url("img/warning.png");
   background-repeat: no-repeat;
   display: inline-block;
   width: 44px;
@@ -883,7 +882,7 @@ ul.breadcrumbs li:nth-child(n+2):before {
 
 .border-blue:before {
   content: " ";
-  background-image: url("ggg/next.png");
+  background-image: url("img/next.png");
   background-repeat: no-repeat;
   display: inline-block;
   width: 44px;
@@ -939,6 +938,28 @@ ul.breadcrumbs li:nth-child(n+2):before {
 
 .child-padding-b2em > div {
   padding-bottom: 2em;
+}
+
+.calendar {
+  font-size: 10pt;
+  color: rgb(144,143,143);
+  margin-bottom: 5px;
+}
+
+.calendar > span {
+  line-height: 16px;
+  vertical-align: middle;
+}
+.calendar:before {
+  content: " ";
+  background-image: url("img/calendar.png");
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  line-height: 16px;
+  vertical-align: middle;
+  background-position: center;
 }
 
 .newstext .name {
