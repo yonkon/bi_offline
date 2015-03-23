@@ -1088,11 +1088,18 @@ html {
 }
 body {
   font-family: open-sans, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 9pt;
+  font-size: 10pt;
   line-height: 1.42857143;
   color: #333333;
   background-color: #ffffff;
 }
+
+@media (min-width: 1200px) {
+  body {
+    font-size: 9pt;
+  }
+}
+
 input,
 button,
 select,
