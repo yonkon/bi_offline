@@ -759,19 +759,27 @@ a:focus {
   font-weight: bolder;
 }
 
-.personas .details-link a {
+.details-link a {
   text-decoration: underline;
   cursor: pointer;
 }
 
-.personas .details-link a:hover {
+.details-link a:hover {
   text-decoration: none;
 }
 
-.personas .details-link:after {
-  color: rgb(81, 81, 81);
-  content: " >>";
+.details-link:after {
+  height: 10pt;
+  vertical-align: middle;
+  background-image: url("img/readmore.png");
+  content: " ";
   text-decoration: none;
+  width: 16px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: 13px;
+  margin-left: 2px;
+  background-position: center;
 }
 
 .pagination a:hover {
@@ -987,5 +995,7 @@ ul.breadcrumbs li:nth-child(n+2):before {
 }
 
 .article-name.small {
-  font-size: 9pt;
+  font-size: 10pt;
 }
+
+
