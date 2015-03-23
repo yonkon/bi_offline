@@ -793,6 +793,7 @@ a:focus {
   text-align: center;
   vertical-align: middle;
   line-height: 30px;
+  font-weight: bold;
 }
 
 .pagination a {
@@ -992,6 +993,7 @@ ul.breadcrumbs li:nth-child(n+2):before {
   font-weight: bold;
   font-size: 11pt;
   text-transform: uppercase;
+  text-decoration: inherit;
 }
 
 .article-name.small {
