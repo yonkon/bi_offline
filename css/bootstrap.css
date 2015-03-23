@@ -65,7 +65,8 @@ dfn {
   font-style: italic;
 }
 h1 {
-  font-size: 2em;
+  font-size: 16pt;
+  font-weight: bold;
   margin: 0.67em 0;
 }
 mark {
@@ -1159,7 +1160,7 @@ hr {
 [role="button"] {
   cursor: pointer;
 }
-h1,
+
 h2,
 h3,
 h4,
@@ -1252,7 +1253,8 @@ h6 .small,
 }
 h1,
 .h1 {
-  font-size: 36px;
+  font-size: 16pt;
+  font-weight: bold;
 }
 h2,
 .h2 {
