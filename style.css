@@ -138,7 +138,7 @@ a:focus {
   height: 35px;
   background-color: rgb(81, 81, 81);
   color: #ffffff;
-  font-size: 14pt;
+  font-size: 12pt;
   text-transform: uppercase;
 }
 
@@ -236,7 +236,7 @@ a:focus {
 }
 
 .article-img {
-  max-height: 208px;
+  height: 220px;
 }
 
 .article-text {
@@ -982,6 +982,6 @@ ul.breadcrumbs li:nth-child(n+2):before {
 
 .article-name {
   font-weight: bold;
-  font-size: 12pt;
+  font-size: 11pt;
   text-transform: uppercase;
 }
