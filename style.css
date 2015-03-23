@@ -985,3 +985,7 @@ ul.breadcrumbs li:nth-child(n+2):before {
   font-size: 11pt;
   text-transform: uppercase;
 }
+
+.article-name.small {
+  font-size: 9pt;
+}
