@@ -930,7 +930,6 @@ ul.breadcrumbs li:nth-child(n+2):before {
   list-style-type: decimal;
   padding: 0 0.5em;
   vertical-align: middle;
-  color: rgb(208, 208, 208);
 }
 
 .photo-video img {
