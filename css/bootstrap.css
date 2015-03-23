@@ -1094,7 +1094,7 @@ body {
   background-color: #ffffff;
 }
 
-@media (min-width: 1200px) {
+@media (max-width: 1200px) {
   body {
     font-size: 9pt;
   }
